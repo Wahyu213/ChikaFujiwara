@@ -4,7 +4,7 @@ import sys
 import re
 
 from pathlib import Path
-from telethon import events
+from telegram import events
 
 from pymongo import MongoClient
 from tg_bot import MONGO_DB_URI
