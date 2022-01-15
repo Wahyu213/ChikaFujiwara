@@ -14,7 +14,7 @@ def blacklist_chats(bot: Bot, update: Update):
         return
     try:
         chat.send_message(
-            "This chat has been blacklisted! Head over to @PhoenixSupport to find out why!"
+            "This chat has been blacklisted! Head over to @OkaeriUserbot to find out why!"
         )
         chat.leave()
         raise DispatcherHandlerStop
