@@ -37,7 +37,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "ChikaProBot"
+         "value": "zenfrans"
       },
       "PORT": {
          "description": "Port to use for your webhooks.",
