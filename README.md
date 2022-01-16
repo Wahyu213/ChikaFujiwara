@@ -6,6 +6,16 @@
   <img src="https://telegra.ph/file/193b10ac0eefdc9316a8e.jpg">
 </p>
 
+<p align="center">
+<a href="https://app.codacy.com/gh/Wahyu213/ChikaFujiwaraProBot?utm_source=github.com&utm_medium=referral&utm_content=Wahyu213/ChikaFujiwaraProBot&utm_campaign=Badge_Grade_Settings" alt="Codacy Badge">
+<img src="https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51" /> </a>
+<a href="https://github.com/Wahyu213/ChikaFujiwaraRobot" alt="Libraries.io dependency status for GitHub repo"> <img src="https://img.shields.io/librariesio/github/animekaizoku/SaitamaRobot" /> </a>
+</p>
+<p align="center">
+<a href="https://github.com/Wahyu213/ChikaFujiwaraProBot" alt="GitHub release (latest by date including pre-releases)"> <img src="https://img.shields.io/github/v/release/animekaizoku/saitamarobot?include_prereleases?style=flat&logo=github" /> </a>
+<a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat&logo=python&color=blue" /> </a>
+<a href="https://t.me/nbzoning" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+
 Originally a Marie fork, Chika was created for personal use by [this person](https://t.me/zenfrans). Feel free to add it to your groups though!
 
 If you want to create your own bot, you can basically follow the steps given [here](https://github.com/PaulSonOfLars/tgbot/blob/master/README.md)
