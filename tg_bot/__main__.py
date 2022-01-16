@@ -28,7 +28,7 @@ BOT_IMAGE = "https://telegra.ph/file/8fd902aac48891f9d55a1.mp4"
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
+I'm a modular group management bot with a few fun extras!\
 the things I can help you with.
 If you have any questions on how to use me, head over to @OkaeriUSerbot
 
