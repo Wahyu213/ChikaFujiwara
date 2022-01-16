@@ -1,5 +1,10 @@
-# Chika Fujiwara
-A modular telegram Python bot running on python3 with an sqlalchemy database.
+<h2 align="center">
+    ──「𝐂𝐡𝐢𝐤𝐚 𝐅𝐮𝐣𝐢𝐰𝐚𝐫𝐚」──
+</h2>
+
+<p align="center">
+  <img src="https://telegra.ph/file/193b10ac0eefdc9316a8e.jpg">
+</p>
 
 Originally a Marie fork, Chika was created for personal use by [this person](https://t.me/zenfrans). Feel free to add it to your groups though!
 
@@ -37,13 +42,13 @@ from tg_bot.sample_config import Config
 
 
 class Development(Config):
-    OWNER_ID = 254318997  # my telegram ID
-    OWNER_USERNAME = "SonOfLars"  # my telegram username
+    OWNER_ID = 1938466384  # my telegram ID
+    OWNER_USERNAME = "zenfrans"  # my telegram username
     API_KEY = "your bot api key"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
     USE_MESSAGE_DUMP = True
-    SUDO_USERS = [18673980, 83489514]  # List of id's for users which have sudo access to the bot.
+    SUDO_USERS = [1674247332, 1848248678]  # List of id's for users which have sudo access to the bot.
     LOAD = []
     NO_LOAD = ['translation']
 ```
