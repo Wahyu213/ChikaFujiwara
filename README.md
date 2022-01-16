@@ -138,7 +138,7 @@ repeat for your username, password, hostname (localhost?), port (5432?), and db 
 
 ## NOTE:
 
-  I'm making this note to whoever comes to see this repo. (I came through a lot to make this bot) - I would not say such dumb thing like this, the whole credits goes to [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot). You might ask me what you did?, well i did some edits with my knowledge to make this bot like my own. I don't give a shit about any illegal problems if anyone comes with that GPLv3 license stuff. After all i came through a lot from many developers, No one ever told me/us anything not even a simple guide. So i will make this repo public so anyone can learn or get code from here for my future updates.
+  I'm making this note to whoever comes to see this repo. (I came through a lot to make this bot) - I would not say such dumb thing like this, the whole credits goes to [tg_bot](https://github.com/PaulSonOfLars/tgbot.git). You might ask me what you did?, well i did some edits with my knowledge to make this bot like my own. I don't give a shit about any illegal problems if anyone comes with that GPLv3 license stuff. After all i came through a lot from many developers, No one ever told me/us anything not even a simple guide. So i will make this repo public so anyone can learn or get code from here for my future updates.
 ## Bot stuff
     
 * Bot Support chat : [Support](https://t.me/OkaeriUserbot)
@@ -146,7 +146,7 @@ repeat for your username, password, hostname (localhost?), port (5432?), and db 
 
 ## CREDITS
 
-This whole repo was forked and edited from [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot). 
+This whole repo was forked and edited from [tg_bot](https://github.com/PaulSonOfLars/tgbot.git)
 Appropriate copyright and Code ownership goes to the respective creators/developers/owners.
 Some code has been created by my own and my team.
 I thank everyone who is behind this huge project. 
