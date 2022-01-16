@@ -16,13 +16,6 @@
 <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat&logo=python&color=blue" /> </a>
 <a href="https://t.me/nbzoning" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
-Originally a Marie fork, Chika was created for personal use by [this person](https://t.me/zenfrans). Feel free to add it to your groups though!
-
-If you want to create your own bot, you can basically follow the steps given [here](https://github.com/PaulSonOfLars/tgbot/blob/master/README.md)
-
-### Note
-We don't support Heroku anymore. If you can't get it working on Heroku, please don't come to the support chat and complain/ask for assistance.
-
 ## Starting the bot.
 
 Once you've setup your database and your configuration (see below) is complete, simply run:
@@ -143,39 +136,18 @@ You should now be able to build your database URI. This will be:
 Replace sqldbtype with whichever db youre using (eg postgres, mysql, sqllite, etc)
 repeat for your username, password, hostname (localhost?), port (5432?), and db name.
 
-## Modules
-### Setting load order.
+## NOTE:
 
-The module load order can be changed via the `LOAD` and `NO_LOAD` configuration settings.
-These should both represent lists.
+  I'm making this note to whoever comes to see this repo. (I came through a lot to make this bot) - I would not say such dumb thing like this, the whole credits goes to [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot). You might ask me what you did?, well i did some edits with my knowledge to make this bot like my own. I don't give a shit about any illegal problems if anyone comes with that GPLv3 license stuff. After all i came through a lot from many developers, No one ever told me/us anything not even a simple guide. So i will make this repo public so anyone can learn or get code from here for my future updates.
+## Bot stuff
 
-If `LOAD` is an empty list, all modules in `modules/` will be selected for loading by default.
+* Bot link : [Chika Fujiwara](https://t.me/ChikaProBot)
+* Bot Support chat : [Support](https://t.me/OkaeriUserbot)
+* Bot News/Updates : [update](https://t.me/nbzoning)
 
-If `NO_LOAD` is not present, or is an empty list, all modules selected for loading will be loaded.
+## CREDITS
 
-If a module is in both `LOAD` and `NO_LOAD`, the module will not be loaded - `NO_LOAD` takes priority.
-
-### Creating your own modules.
-
-Creating a module has been simplified as much as possible - but do not hesitate to suggest further simplification.
-
-All that is needed is that your .py file be in the modules folder.
-
-To add commands, make sure to import the dispatcher via
-
-`from tg_bot import dispatcher`.
-
-You can then add commands using the usual
-
-`dispatcher.add_handler()`.
-
-Assigning the `__help__` variable to a string describing this modules' available
-commands will allow the bot to load it and add the documentation for
-your module to the `/help` command. Setting the `__mod_name__` variable will also allow you to use a nicer, user
-friendly name for a module.
-
-The `__migrate__()` function is used for migrating chats - when a chat is upgraded to a supergroup, the ID changes, so 
-it is necessary to migrate it in the db.
-
-The `__stats__()` function is for retrieving module statistics, eg number of users, number of chats. This is accessed 
-through the `/stats` command, which is only available to the bot owner.
+This whole repo was forked and edited from [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot). 
+Appropriate copyright and Code ownership goes to the respective creators/developers/owners.
+Some code has been created by my own and my team.
+I thank everyone who is behind this huge project. 
