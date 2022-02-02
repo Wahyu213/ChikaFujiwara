@@ -14,7 +14,7 @@
 <p align="center">
 <a href="https://github.com/Wahyu213/ChikaFujiwaraProBot" alt="GitHub release (latest by date including pre-releases)"> <img src="https://img.shields.io/github/v/release/animekaizoku/saitamarobot?include_prereleases?style=flat&logo=github" /> </a>
 <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat&logo=python&color=blue" /> </a>
-<a href="https://t.me/zenfrans" alt="Zen!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+<a href="https://t.me/ChikaProBot" alt="Zen!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
 ## Starting the bot.
 
